@@ -11,7 +11,7 @@
 
 
 class Question
-  attr_accessor :randomnum1 :randomnum2 :question, :answer
+  attr_accessor :randomnum1, :randomnum2, :question, :answer
   def initialize
       @randomnum1 = rand(1..20)
       @randomnum2 = rand(1..20)

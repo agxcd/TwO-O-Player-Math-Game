@@ -1,8 +1,6 @@
-require 'pry'
-
-require './game'
 require './player'
 require './question'
+require './game'
 
 game = Game.new
 game.run_game

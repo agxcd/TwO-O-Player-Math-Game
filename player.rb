@@ -13,7 +13,7 @@ class Player
   end
 
   # 
-  def print_player_status
-      puts "#{player.name} has #{player.scores} scores"
-  end
+  # def print_player_status
+  #     puts "#{player.name} has #{player.scores} scores"
+  # end
 end
